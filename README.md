@@ -11,6 +11,7 @@ You can refer to the resource below or my [repo](https://github.com/tomtom28/hel
 Once this repo is cloned down to your machine, please `cd` into the directory. 
 
 - Then run `dotnet restore` and `npm install` to download the dependencies
+- Then convert the typescript to javascript via `webpack`
 - Then perform `dotnet run` to serve the webapp.
 
 
