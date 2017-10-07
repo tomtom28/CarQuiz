@@ -8,7 +8,7 @@ import { AppComponent } from './components/app/app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
-import { PastComponent } from './components/past/past.component';
+import { QuizletComponent } from './components/quizlet/quizlet.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +16,7 @@ import { PastComponent } from './components/past/past.component';
         HomeComponent,
         NavbarComponent,
         FooterComponent,
-        PastComponent
+        QuizletComponent
     ],
     imports: [
         CommonModule,
@@ -24,7 +24,7 @@ import { PastComponent } from './components/past/past.component';
         FormsModule,
         RouterModule.forRoot([
             { path: '', component: HomeComponent },
-            { path: 'past', component: PastComponent },
+            { path: 'quiz', component: QuizletComponent },
             { path: '**', redirectTo: '' }
         ])
     ]
