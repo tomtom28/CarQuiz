@@ -27,6 +27,12 @@ http://www.joshka.net/2016/08/installing-dotnet-osx
 
 
 
+### Deploying Dotnet to Heroku
+http://codersblock.com/blog/how-to-run-net-on-heroku/
+
+https://stackoverflow.com/questions/29100993/how-to-deploy-net-application-to-heroku
+
+
 #### .NET and Angular 2 (along with Visual Studio Code)
 https://www.youtube.com/watch?v=ytDTkFJOJIE
 
